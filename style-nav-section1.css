@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Playfair+Display&family=Poppins:wght@300&display=swap");
+
+:root {
+    --Morado: #331b3b;
+    --Morado2: rgba(51, 27, 59, 0.66);
+    --Morado3: #2d1127;
+    --White: #ffffff;
+    --sm: 15px;
+    --md: 17px;
+}
+
+body {
+    background-color: #fffbff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 24px;
+}
+
+.img-menu {
+    display: none;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+}
+
+.navbar-left ul {
+    margin-left: 18px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.navbar-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar-right ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.navbar-left ul li a {
+    text-decoration: none;
+    color: var(--Morado);
+    border: 1px solid var(--White);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.navbar-left ul li a:hover {
+    border: 1px solid var(--Morado3);
+    color: var(--Morado);
+    font-weight: 600;
+}
+
+nav h3 {
+    margin-right: 6rem;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    line-height: 8px;
+    letter-spacing: 0.01em;
+    color: var(--Morado);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icono-face,
+.icono-link,
+.icono-insta {
+    height: 17px;
+}
+
+#first-section {
+    margin-left: 3%;
+    margin-top: 6%;
+    padding-top: 3px;
+}
+
+#first-section img {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 40%;
+    height: auto;
+}
+
+#first-section .first-h1 {
+    font-family: "Hind Vadodara";
+    font-size: 46px;
+    font-style: normal;
+    letter-spacing: -0.01em;
+    color: var(--Morado);
+    margin-bottom: 0px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 50px;
+}
+
+#first-section h1 span {
+    font-weight: 700;
+}
+
+#first-section .first-h2 {
+    font-family: "Hind Vadodara";
+    font-size: 46px;
+    font-style: normal;
+    letter-spacing: -0.01em;
+    color: var(--Morado);
+    margin-top: 0px;
+    width: 23%;
+    line-height: 40px;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#first-section p {
+    font-family: "Hind Vadodara";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    letter-spacing: 0.02em;
+    color: var(--Morado2);
+    width: 40%;
+}
+
+#first-section button {
+    background: var(--Morado);
+    font-family: "Hind Vadodara";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 137.3%;
+    color: #fffbff;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    padding: 14px 22px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
