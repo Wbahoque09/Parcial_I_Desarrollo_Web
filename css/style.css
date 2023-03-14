@@ -1,0 +1,696 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Playfair+Display&family=Poppins:wght@300&display=swap");
+
+:root {
+    --Morado: #331b3b;
+    --Morado2: rgba(51, 27, 59, 0.66);
+    --Morado3: #2d1127;
+    --White: #ffffff;
+    --sm: 15px;
+    --md: 17px;
+}
+
+body {
+    background-color: #fffbff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 24px;
+}
+
+.img-menu {
+    display: none;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+}
+
+.navbar-left ul {
+    margin-left: 18px;
+    font-family: "Hind Vadodara", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.navbar-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar-right ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.navbar-left ul li a {
+    text-decoration: none;
+    color: var(--Morado);
+    border: 1px solid var(--White);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.navbar-left ul li a:hover {
+    border: 1px solid var(--Morado3);
+    color: var(--Morado);
+    font-weight: 600;
+}
+
+nav h3 {
+    margin-right: 6rem;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    line-height: 8px;
+    letter-spacing: 0.01em;
+    color: var(--Morado);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icono-face,
+.icono-link,
+.icono-insta {
+    height: 17px;
+}
+
+#first-section {
+    margin-left: 3%;
+    margin-top: 6%;
+    padding-top: 3px;
+}
+
+#first-section img {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 40%;
+    height: auto;
+}
+
+#first-section .first-h1 {
+    font-family: "Hind Vadodara";
+    font-size: 46px;
+    font-style: normal;
+    letter-spacing: -0.01em;
+    color: var(--Morado);
+    margin-bottom: 0px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 50px;
+}
+
+#first-section h1 span {
+    font-weight: 700;
+}
+
+#first-section .first-h2 {
+    font-family: "Hind Vadodara";
+    font-size: 46px;
+    font-style: normal;
+    letter-spacing: -0.01em;
+    color: var(--Morado);
+    margin-top: 0px;
+    width: 23%;
+    line-height: 40px;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#first-section p {
+    font-family: "Hind Vadodara";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    letter-spacing: 0.02em;
+    color: var(--Morado2);
+    width: 40%;
+}
+
+#first-section button {
+    background: var(--Morado);
+    font-family: "Hind Vadodara";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 137.3%;
+    color: #fffbff;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    padding: 14px 22px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#second-section {
+    margin-top: 8%;
+    background-image: url("../assets/Imágenes-Rúbrica-1er-corte-martes-Landing-Page/Rúbrica 1er corte martes- Landing Page/Group 4.png");
+    background-repeat: no-repeat;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+}
+
+#second-section .father {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    width: 81rem;
+}
+
+#second-section .rectangulo {
+    background-color: var(--White);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    flex-basis: 16rem;
+    margin-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+#second-section h2 {
+    width: 342px;
+    height: 102px;
+    font-family: 'Hind Vadodara';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 106.3%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    margin-left: 19rem;
+    color: var(--Morado);
+}
+
+#second-section h2 span{
+    font-weight: 700;
+}
+
+#second-section .rectangulo img{
+    height: 28px;
+}
+
+#second-section .rectangulo h1 {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 137.3%;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    color: var(--Morado);
+}
+
+#second-section .rectangulo p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 145.3%;
+    letter-spacing: 0.02em;
+    color: var(--Morado2);
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 5;
+}
+.container div{
+    display: flex;
+    flex-direction: column;
+}
+
+#container_acerca_de-nostros{
+    width: 60%;
+}
+#container_acerca_de-nostros a,
+#container__te-ayudamos a{
+    width: 40%;
+    padding-block: 20px;
+    margin-block: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 137.3%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #331B3B;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.container__te-ayudamos__img{
+    height: 450px;
+    width: 450px;
+}
+
+#container__image-group3{
+    position: relative;
+    z-index: -2;
+    width: 52%;
+    min-height: 450px;
+    min-width: 450px;
+}
+#container__image-group3 img{
+    position: relative;
+    z-index: -2;
+}
+.container__card{
+    display: flex;
+    flex-direction: row !important;
+    justify-content:center;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.container__card__cards{
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+    height: 20%;
+    width: 250px;
+    margin-inline: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.container__card__cards div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.container__card__cards p{
+    font-family: 'Hind Vadodara', sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 145.3%;
+    /* or 22px */
+
+    letter-spacing: 0.02em;
+    margin-top: 20px;
+
+    color: var(--Morado2);
+}
+.container__card__cards div img{
+    height: 30px;
+    width: 30px;
+}
+#container_lo-que-hacemos{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 100px;
+}
+#cont3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+#container_acerca_de-nostros h1,
+#container_lo-que-hacemos h1{
+    position: relative;
+    z-index: 2;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: lighter;
+    line-height: 106.3%;
+    text-align: center !important;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #331B3B;
+}
+
+#cont4__title::after{
+    position: absolute;
+    z-index: -1;
+    content: "";
+    height: 8px;
+    width: 11%;
+    bottom: 3px;
+    left: 10%;
+}
+#container__nuestros-testimonios__titulo h1{
+    position: relative;
+    z-index: 2;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 48px;
+    line-height: 110.8%;
+    /* or 53px */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #331B3B;
+}
+#container__nuestros-testimonios__titulo h1 p{
+    font-weight: lighter;
+}
+#container__nuestros-testimonios__titulo h1::after{
+    position: absolute;
+    z-index: -1;
+    content: "";
+    height: 9px;
+    width: 20%;
+    bottom: 4px;
+    right: 4%;
+}
+#container_acerca_de-nostros h1 b,
+#container_lo-que-hacemos h1 b{
+    font-weight: bolder;
+}
+#container_acerca_de-nostros h1 p,
+#container_lo-que-hacemos h1 p{
+    height: 60px;
+}
+#container__image-group4,
+#container__image-works,
+#container__trabajos-recientes{
+    width: 1500px;
+    min-width: 1500px;
+}
+#container__image-works{
+    height: 720px;
+    margin-left: 170px;
+}
+
+.container__acerca-de-nosotros__p{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    /* or 25px */
+
+    letter-spacing: 0.02em;
+
+    margin-top: 20px;
+
+    color: var(--Morado2);
+}
+
+
+#container__trabajos-recientes__letters{
+    position: absolute;
+    top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    margin-inline: 50px;
+}
+#container__trabajos-recientes__letters h1{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 106.3%;
+    font-weight: lighter;
+    /* or 51px */
+
+    letter-spacing: -0.01em;
+
+    color: #331B3B;
+    text-align: left;
+    width: 50%;
+}
+#container__trabajos-recientes__letters h1 b{
+    font-weight: bolder;
+}
+.trabajos-recientes__p{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 146.3%;
+    /* or 25px */
+
+    letter-spacing: 0.02em;
+
+    color: #331B3B;
+    width: 38%;
+
+}
+.container__image-works__cards{
+    position: absolute;
+    z-index: 10;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row !important;
+    width: 100%;
+    margin-left: -170px;
+    align-items: center;
+    justify-content: center;
+}
+.container__image-works__cards__card{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}.container__image-works__cards__card img{
+    height: 300px;
+    width: 300px;
+    margin-block: 15px;
+    margin-inline: 60px;
+    object-fit: cover;
+}
+.card__letters__container{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    margin-inline: 30px;
+}
+.card__letters__container p{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 146.3%;
+    /* or 35px */
+
+
+    color: #331B3B;
+}
+.card__letters__container a{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 146.3%;
+    padding-block: 2px;
+    padding-inline: 10px;
+    color: #331B3B;
+    border: 1px solid #343434;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+#container-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 80px;
+}
+.container__testimonio__card__container{
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container__testimonio__card{
+    display: flex;
+    height: 320px;
+    width: 450px;
+    padding-inline: 30px;
+    margin-block: 50px;
+    margin-inline: 50px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;        
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
+}
+.container__testimonio__card p{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.3%;
+    /* or 25px */
+
+    letter-spacing: 0.02em;
+
+    color: #331B3B;
+}
+.img__quotes{
+    height: 50px;
+    width: 50px;
+}
+.container__nuestros-testimonios__p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.container__nuestros-testimonios__autor{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.container__nuestros-testimonios__autor p{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 159.3%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    padding-block: 40px;
+    border-radius: 0px 158px 0px 0px;
+}
+footer h1,
+footer p,
+footer b{
+    color: white;
+}
+footer div{
+    width: 50%;
+    margin-block: 20px;
+    margin-inline: 50px;
+}
+footer div h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    margin-bottom: 22px;
+}
+footer div p{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    margin-bottom: 22px;
+}
+footer div b{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+footer div input,
+footer div textarea{
+    width: 40%;
+    margin-inline: 15px;
+    margin-bottom: 25px;
+    padding-left: 11px;
+    border: none;
+    resize: none;
+}
+footer div input{
+    height: 35px;
+}
+footer div textarea{
+    padding-top: 7px;
+    height: 100px;
+}
+
+.footer-container__letters{
+    text-align: start;
+    padding-right: 50px;
+}
+.footer-container__contact{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.footer-container__contact div{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    width: 100%;
+}
+.footer-container__contact > button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: center ;
+    padding-top: 4px;
+    margin-left: 15px;
+    width: 42%;
+    background-color: #FE9A22;
+    color: white;
+}
+.footer-container__contact img{
+    height: 2vw;
+    width: 2vw;
+}
+.footer-container__contact__div{
+    margin: 0px;
+    width: 40%;
+    padding-bottom: 10px !important;
+}
+#footer-container__contact__place-and-img{
+    align-items: end;
+}
+#footer-container__contact__place-and-img div {
+    padding-left: 10px;
+    flex-direction: column;
+    width: 50%;
+}
+.footer-container__contact__div__info{
+    width: 100% !important;
+    flex-direction: row !important;
+    align-items: center;
+}
+#footer-container__contact__div__info__1{
+    margin-bottom: 10px;
+}
+.footer-container__contact__div__info p{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.08em;
+    text-align: left;
+}
